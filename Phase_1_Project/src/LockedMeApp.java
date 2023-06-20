@@ -5,10 +5,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class LockedMeApp_2 {
+public class LockedMeApp_3 {
     // Import statements and LockedMeApp class declaration
 
-    private static final String ROOT_DIRECTORY = "aryaman/";
+    // Import statements and LockedMeApp class declaration
+
+    private static final String ROOT_DIRECTORY = "out/";
 
     public static void main(String[] args) {
         displayWelcomeScreen();
@@ -92,7 +94,7 @@ public class LockedMeApp_2 {
                 deleteFile();
                 break;
             case 3:
-                // Code for File Search will be implemented in Sprint 3
+                searchFile();
                 break;
             case 4:
                 displayUserOptions();
@@ -109,7 +111,8 @@ public class LockedMeApp_2 {
         System.out.print("Enter the file name to add: ");
         String fileName = scanner.nextLine();
 
-        File file = new File(ROOT_DIRECTORY + File.separator + fileName);
+        File file = new File(ROOT_DIRECTORY + fileName);
+        System.out.println(ROOT_DIRECTORY + fileName);
         if (file.exists()) {
             System.out.println("File already exists.");
         } else {
@@ -145,6 +148,28 @@ public class LockedMeApp_2 {
             System.out.println("File not found.");
         }
 
+        displayFileOperations();
+    }
+
+    private static void searchFile() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the file name to search: ");
+        String fileName = scanner.nextLine();
+
+        File directory = new File(ROOT_DIRECTORY);
+        File[] files = directory.listFiles();
+
+        if (files != null) {
+            for (File file : files) {
+                if (file.getName().equals(fileName)) {
+                    System.out.println("File found: " + file.getAbsolutePath());
+                    displayFileOperations();
+                    return;
+                }
+            }
+        }
+
+        System.out.println("File not found.");
         displayFileOperations();
     }
 
