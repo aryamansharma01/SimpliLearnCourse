@@ -1,10 +1,13 @@
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class LockedMeApp {
+public class LockedMeApp_2 {
+    // Import statements and LockedMeApp class declaration
+
     private static final String ROOT_DIRECTORY = "aryaman/";
 
     public static void main(String[] args) {
@@ -32,7 +35,7 @@ public class LockedMeApp {
                 retrieveFileNames();
                 break;
             case 2:
-                // Code for File Operations will be implemented in Sprint 2
+                displayFileOperations();
                 break;
             case 3:
                 closeApplication();
@@ -70,4 +73,79 @@ public class LockedMeApp {
         System.out.println("Closing the application... Goodbye!");
         // Additional cleanup or exit code can be added here if necessary
     }
+
+    private static void displayFileOperations() {
+        System.out.println("File Operations:");
+        System.out.println("1. Add a file to the existing directory list");
+        System.out.println("2. Delete a file from the existing directory list");
+        System.out.println("3. Search for a file in the main directory");
+        System.out.println("4. Navigate back to the main context");
+
+        Scanner scanner = new Scanner(System.in);
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                addFile();
+                break;
+            case 2:
+                deleteFile();
+                break;
+            case 3:
+                // Code for File Search will be implemented in Sprint 3
+                break;
+            case 4:
+                displayUserOptions();
+                break;
+            default:
+                System.out.println("Invalid option selected. Please try again.");
+                displayFileOperations();
+                break;
+        }
+    }
+
+    private static void addFile() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the file name to add: ");
+        String fileName = scanner.nextLine();
+
+        File file = new File(ROOT_DIRECTORY + File.separator + fileName);
+        if (file.exists()) {
+            System.out.println("File already exists.");
+        } else {
+            try {
+                boolean created = file.createNewFile();
+                if (created) {
+                    System.out.println("File added successfully.");
+                } else {
+                    System.out.println("Failed to add the file.");
+                }
+            } catch (IOException e) {
+                System.out.println("An error occurred while adding the file: " + e.getMessage());
+            }
+        }
+
+        displayFileOperations();
+    }
+
+    private static void deleteFile() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the file name to delete: ");
+        String fileName = scanner.nextLine();
+
+        File file = new File(ROOT_DIRECTORY + File.separator + fileName);
+        if (file.exists()) {
+            boolean deleted = file.delete();
+            if (deleted) {
+                System.out.println("File deleted successfully.");
+            } else {
+                System.out.println("Failed to delete the file.");
+            }
+        } else {
+            System.out.println("File not found.");
+        }
+
+        displayFileOperations();
+    }
+
 }
