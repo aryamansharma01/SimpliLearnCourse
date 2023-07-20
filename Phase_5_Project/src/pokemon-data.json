@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    "CP": 1000,
+    "attack": 80,
+    "defense": 50,
+    "type": "Electric"
+  },
+  {
+    "id": 2,
+    "name": "Charizard",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+    "CP": 2000,
+    "attack": 120,
+    "defense": 80,
+    "type": "Fire/Flying"
+  },
+  {
+    "id": 3,
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "CP": 800,
+    "attack": 60,
+    "defense": 70,
+    "type": "Grass/Poison"
+  },
+  {
+    "id": 4,
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "CP": 900,
+    "attack": 70,
+    "defense": 65,
+    "type": "Water"
+  },
+  {
+    "id": 5,
+    "name": "Jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    "CP": 600,
+    "attack": 45,
+    "defense": 20,
+    "type": "Normal/Fairy"
+  },
+  {
+    "id": 6,
+    "name": "Mewtwo",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    "CP": 3000,
+    "attack": 150,
+    "defense": 100,
+    "type": "Psychic"
+  },
+  {
+    "id": 7,
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    "CP": 1800,
+    "attack": 110,
+    "defense": 60,
+    "type": "Ghost/Poison"
+  },
+  {
+    "id": 8,
+    "name": "Dragonite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
+    "CP": 2500,
+    "attack": 135,
+    "defense": 90,
+    "type": "Dragon/Flying"
+  },
+  {
+    "id": 9,
+    "name": "Machamp",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
+    "CP": 1900,
+    "attack": 130,
+    "defense": 80,
+    "type": "Fighting"
+  },
+  {
+    "id": 10,
+    "name": "Arcanine",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
+    "CP": 2100,
+    "attack": 120,
+    "defense": 80,
+    "type": "Fire"
+  },
+  {
+    "id": 11,
+    "name": "Alakazam",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+    "CP": 1800,
+    "attack": 110,
+    "defense": 60,
+    "type": "Psychic"
+  },
+  {
+    "id": 12,
+    "name": "Gyarados",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
+    "CP": 2200,
+    "attack": 125,
+    "defense": 90,
+    "type": "Water/Flying"
+  },
+  {
+    "id": 13,
+    "name": "Snorlax",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+    "CP": 2800,
+    "attack": 140,
+    "defense": 160,
+    "type": "Normal"
+  },
+  {
+    "id": 14,
+    "name": "Mew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+    "CP": 2200,
+    "attack": 120,
+    "defense": 120,
+    "type": "Psychic"
+  },
+  {
+    "id": 15,
+    "name": "Lapras",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
+    "CP": 2300,
+    "attack": 130,
+    "defense": 80,
+    "type": "Water/Ice"
+  },
+  {
+    "id": 16,
+    "name": "Venusaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "CP": 2200,
+    "attack": 110,
+    "defense": 100,
+    "type": "Grass/Poison"
+  },
+  {
+    "id": 17,
+    "name": "Blaziken",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/257.png",
+    "CP": 2400,
+    "attack": 140,
+    "defense": 70,
+    "type": "Fire/Fighting"
+  },
+  {
+    "id": 18,
+    "name": "Gardevoir",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/282.png",
+    "CP": 2100,
+    "attack": 120,
+    "defense": 80,
+    "type": "Psychic/Fairy"
+  },
+  {
+    "id": 19,
+    "name": "Tyranitar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png",
+    "CP": 2700,
+    "attack": 150,
+    "defense": 120,
+    "type": "Rock/Dark"
+  },
+  {
+    "id": 20,
+    "name": "Lucario",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png",
+    "CP": 2200,
+    "attack": 125,
+    "defense": 70,
+    "type": "Fighting/Steel"
+  },
+  {
+    "id": 21,
+    "name": "Rattata",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+    "CP": 500,
+    "attack": 55,
+    "defense": 35,
+    "type": "Normal"
+  },
+  {
+    "id": 22,
+    "name": "Ekans",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+    "CP": 600,
+    "attack": 60,
+    "defense": 44,
+    "type": "Poison"
+  },
+  {
+    "id": 23,
+    "name": "Sandshrew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+    "CP": 700,
+    "attack": 75,
+    "defense": 85,
+    "type": "Ground"
+  },
+  {
+    "id": 24,
+    "name": "Nidoran♀",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+    "CP": 600,
+    "attack": 47,
+    "defense": 52,
+    "type": "Poison"
+  },
+  {
+    "id": 25,
+    "name": "Nidorina",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
+    "CP": 900,
+    "attack": 62,
+    "defense": 67,
+    "type": "Poison"
+  },
+  {
+    "id": 26,
+    "name": "Clefairy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+    "CP": 800,
+    "attack": 45,
+    "defense": 48,
+    "type": "Fairy"
+  },
+  {
+    "id": 27,
+    "name": "Vulpix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+    "CP": 750,
+    "attack": 41,
+    "defense": 40,
+    "type": "Fire"
+  },
+  {
+    "id": 28,
+    "name": "Jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    "CP": 600,
+    "attack": 45,
+    "defense": 20,
+    "type": "Normal/Fairy"
+  },
+  {
+    "id": 29,
+    "name": "Zubat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+    "CP": 450,
+    "attack": 45,
+    "defense": 35,
+    "type": "Poison/Flying"
+  },
+  {
+    "id": 30,
+    "name": "Goldeen",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
+    "CP": 600,
+    "attack": 67,
+    "defense": 60,
+    "type": "Water"
+  },
+  {
+    "id": 31,
+    "name": "Ponyta",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+    "CP": 800,
+    "attack": 85,
+    "defense": 55,
+    "type": "Fire"
+  },
+  {
+    "id": 32,
+    "name": "Slowpoke",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+    "CP": 750,
+    "attack": 65,
+    "defense": 65,
+    "type": "Water/Psychic"
+  },
+  {
+    "id": 33,
+    "name": "Magnemite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+    "CP": 550,
+    "attack": 35,
+    "defense": 70,
+    "type": "Electric/Steel"
+  },
+  {
+    "id": 34,
+    "name": "Seel",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+    "CP": 750,
+    "attack": 45,
+    "defense": 55,
+    "type": "Water"
+  },
+  {
+    "id": 35,
+    "name": "Diglett",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+    "CP": 550,
+    "attack": 55,
+    "defense": 25,
+    "type": "Ground"
+  },
+  {
+    "id": 36,
+    "name": "Meowth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+    "CP": 600,
+    "attack": 45,
+    "defense": 35,
+    "type": "Normal"
+  }
+]
